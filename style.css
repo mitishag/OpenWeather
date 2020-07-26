@@ -1,0 +1,184 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251;
+}
+
+.container{
+    width: 800px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 800px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.input{	
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.inputValue{
+    border-radius: 8pt;
+	padding: 4pt 8pt;
+    color: #48484a;
+    font-family: Space Grotesk,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.searchButton{
+	background-color: #48484a;
+    border-color: #48484a;
+    color: #f2f2f2;
+	border-radius: 16pt!important;
+	font-size: 14px;
+}
+
+.weather-container,.rain-container{
+    width: 100%;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 100%;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 800px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    background-color: #03A9F4;
+}
+
+.location p{
+    margin: 0;
+    padding: 8px;
+    color: white;
+    text-align: left;
+    font-size: 1em;
+}
+
+.date-value {
+    margin: 0;
+    padding: 9px;
+    color: white;
+    text-align: left;
+    font-size: .8em;
+    background-color: #80808087;
+}
+
+.rain-container{
+    width: 100%;
+    height: 50px;
+    background-color: #F4F9FF;
+    /* padding: 8px; */
+    vertical-align: middle;
+}
+
+.rain-title {
+    text-align: left;
+    padding-left: 8px;
+    width: 40%;
+    font-size: 1em;
+    color: white;
+    float:left;
+    background-color: #03A9F4;
+}
+.rain-icon{
+    width: 21%;
+    height: 50px;
+    float: left;
+    margin-left: 1%;
+}
+
+.rain-icon img{
+    max-height: 50px;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.rain-description {
+	text-align: center;
+	/* padding: 8px; */
+	width: 36%;
+	font-size: 1em;
+	color: white;
+	float:left;
+	background-color: #03A9F4;
+	padding-right: 8px;
+}
+
+:focus{
+	outline:none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="app-title">
+            <p>Weather Information</p>
+        </div>
+		<div class="input">
+			<input type="text" class="inputValue" placeholder="Search city">
+			<button type="submit" class="searchButton">Search</button>
+		</div>		
+		<div class="location">
+                <p>-</p>
+        </div>
+		<div class="date-value">	
+         </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+        </div>
+		<div class="rain-container">
+			<div class="rain-title">
+				<p>Rain Forecast For Today</p>
+			</div>
+            <div class="rain-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="rain-description">
+                <p> - </p>
+            </div>
+        </div>
+		 <div>
+            <canvas id="myChart"></canvas>
+          </div>
+    </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
